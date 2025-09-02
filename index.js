@@ -1,9 +1,10 @@
 // const express=require('express')
-
+// import { configDotenv } from "dotenv";
+import "dotenv/config"
 import express from "express";
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 3000
 
 app.use(express.json());
 
