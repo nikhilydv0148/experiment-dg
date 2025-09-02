@@ -1,0 +1,22 @@
+{
+  "name": "student-data",
+  "version": "1.0.0",
+  "description": "simple students data manager",
+  "keywords": [
+    "students",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Nikhil Yadav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "express": "^5.1.0"
+  }
+}
